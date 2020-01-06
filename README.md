@@ -1,0 +1,3 @@
+# Image-retrieval-using-hash
+This is a traditional hash method for image retrieval, I hope it will be helpful to you.
+这是一份图像检索的大作业，相关设计要求就在pdf文件中，因为是使用传统的hash方法进行检索，所以效果比较泪牛满面...
