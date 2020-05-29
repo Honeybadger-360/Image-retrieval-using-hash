@@ -326,7 +326,7 @@ def phash():
             count1 += 1
         c = json.dumps(round(Recall / Pos * 100, 2))
     result = tk.Tk()
-    result.title('汇总结果 by：索琰琰')
+    result.title('汇总结果 by：Dan')
     result.geometry('300x300')
     a = json.dumps(len(paths))
     b = json.dumps(round(Recall/count2 * 100, 2))
@@ -588,7 +588,7 @@ def dhash():
             count1 += 1
         c = json.dumps(round(Recall / Pos * 100, 2))
     result = tk.Tk()
-    result.title('汇总结果 by：索琰琰')
+    result.title('汇总结果 by：Dan')
     result.geometry('300x300')
     a = json.dumps(len(paths))
     b = json.dumps(round(Recall/count2 * 100, 2))
@@ -606,7 +606,7 @@ def dhash():
 if __name__ == '__main__':
     Jmian = tk.Tk()
     Jmian.geometry('500x300')
-    Jmian.title('图像检索 by:索琰琰')
+    Jmian.title('图像检索 by:Dan')
     bt_login = tk.Button(Jmian, text='选择照片进行phash比对', command=phash)
     bt_login.place(x=200, y=100)
     bt_login = tk.Button(Jmian, text='选择照片进行dhash比对', command=dhash)
